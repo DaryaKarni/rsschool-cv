@@ -24,9 +24,24 @@
   * *Java,*
   * *JavaScript* (in progress)
 
-* Also I worked on my pet project for university and I used **HTML**, **CSS** and got acquaited with **React.js** 
+* Also I worked on my pet project for university and I used *HTML*, *CSS* and got acquaited with *React.js* 
 
-* **Version control systems:** Git
+* Version control systems: *Git*
 
-* **Methodologies:** Agile, Scrum
+* Methodologies: *Agile, Scrum*
 
+## Code examples
+
+```javascript function openOrSenior(data){//will be soon}```
+
+## Experience
+
+Working on pet-project as frontend developer [Git repository](https://github.com/DaryaKarni/recipes-frontend)
+
+## Education
+
+**BSU FAMCS 2023-2027**
+
+## English level
+
+* B2, speaking fluently
