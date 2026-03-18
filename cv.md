@@ -1,5 +1,7 @@
 # CV
 
+!(C:\Users\dashk\Downloads\my_horse.jpg)
+
 ## Name 
 
 * **Darya Karniyenkova**
@@ -32,7 +34,7 @@
 
 ## Code examples
 
-```javascript function openOrSenior(data){//will be soon}```
+```function openOrSenior(data){//will be soon}; ```
 
 ## Experience
 
