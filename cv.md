@@ -1,6 +1,6 @@
 # CV
 
-!(C:\Users\dashk\Downloads\my_horse.jpg)
+![funny image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_yDetvswT2ygZo8cGUfKakTICsSGhN712EaoDRC9ZbweRPIiOVfLamSaipnrd6XI_hBNyJ83W8Lc7-tBlFsfomokC0coQdZoflpTMw&s=10)
 
 ## Name 
 
