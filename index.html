@@ -4,52 +4,130 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
-  <title>Document</title>
+  <title>cv</title>
+  <link rel="icon" href="assets/logo.ico" />
 </head>
 <body>
-  <header>
-    <nav>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li>Contacts</li>
+          <li>Info</li>
+          <li>Skills</li>
+          <li>Code</li>
+          <li>Projects</li>
+          <li>Education</li>
+          <li>English</li>
+        </ul>
+      </nav>
+      <h1>Darya Karniyenkova</h1>
+      <h3>Junior Front-end Developer</h3>
+      <img src="assets/my_photo.jpg" alt="avatar image" width="150" height="100"/>
+    </header>
+    <main>
+      <section>
+        <h2>Contacts</h2>
+        <ul>
+          <li class="contacts-location">
+            <i class="bi bi-geo-fill location-icon"></i>
+            <span>Minsk, Belarus</span>
+          </li>
+          <li>
+            <i class="bi bi-envelope"></i>
+            <span>Email:</span>
+            <a href="mailto:dashkarni@gmail.com" rel="noreferrer noopener" target="_blank">dashkarni@gmail.com</a>
+          </li>
+          <li>
+            <i class="bi bi-github"></i>
+            <span>Github:</span>
+            <a href="https://github.com/DaryaKarni" rel="noreferrer noopener" target="_blank">DaryaKarni</a>
+          </li>
+          <li>
+            <i class="bi bi-discord"></i>
+            <span class="contacts-discord">Discord:</span>
+            <a href="https://discord.com/users/784538909387784252" rel="noreferrer noopener" target="_blank">modory (@DaryaKarni)</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Info</h2>
+        <p>I’m very excited about getting new knowledge especially in the sphere of frontend development
+        because it gives me opportunity to combine my technical education experience and passion to design
+        in the sense of seeing the tangible result of my work. 
+        My greatest strengths are communication skills and my creativity in finfing solutions.
+        It’s valuable to me to have a place for self-expression and solving tricky and interesting problems.</p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <span>Web-development:</span>
+            <span>HTML5, CSS3(SASS), JavaScript</span>
+          </li>
+          <li>
+            <span>Frameworks and libraries:</span>
+            <p>React.js</p>
+          </li>
+          <li>
+            <span>Version control:</span>
+            <p>GIT, Github</p>
+          </li>
+          <li>
+            <span>Methodologies:</span>
+            <p>Agile, Scrum</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Code exapmles</h2>
+        <pre>
+          <code>function sort_copy_descending(arr){
+              let new_arr = arr.slice();
+              return new_arr.sort((a,b) => b - a);
+            }</code></pre>
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <span>Recipes web-application:</span>
+            <a href="https://github.com/DaryaKarni/recipes-frontend" rel="noreferrer noopener" target="_blank">GitHub repository</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <p>BSU FAMCS 2023-2027</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>English</h2>
+        <ul>
+          <li>
+            <span>B2, speaking fluently</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
       <ul>
-        <li>Contacts</li>
-        <li>Info</li>
-        <li>Skills</li>
-        <li>Code</li>
-        <li>Projects</li>
-        <li>Education</li>
-        <li>English</li>
-      </ul>
-    </nav>
-    <h1>Darya Karniyenkova</h1>
-    <h3>Junior Front-end Developer</h3>
-  </header>
-  <main>
-    <section>
-      <h2>Contacts</h2>
-      <ul>
-        <li class="contacts-location">
-          <i class="bi bi-geo-fill location-icon"></i>
-          <span>Minsk, Belarus</span>
+        <li>
+          <span>© 2026</span>
         </li>
         <li>
-          <i class="bi bi-envelope"></i>
-          <span>Email:</span>
-          <a href="mailto:dashkarni@gmail.com">dashkarni@gmail.com</a>
-        </li>
-        <li>
-          <i class="bi bi-github"></i>
-          <span>Github:</span>
-          <a href="https://github.com/DaryaKarni">DaryaKarni</a>
-        </li>
-        <li>
-          <i class="bi bi-discord"></i>
-          <span class="contacts-discord">Discord:</span>
-          <a href="https://discord.com/users/784538909387784252" rel="noreferrer noopener" target="_blank">modory (@DaryaKarni)</a>
+          <a href="https://github.com/DaryaKarni" rel="noreferrer noopener" target="_blank"  aria-label="GitHub profile">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://rs.school/ru/courses/javascript" rel="noreferrer noopener">
+            <img src="assets/rs-school-logo.svg" alt="rss school logo" width="100" height="100"/>
+          </a>
         </li>
       </ul>
-    </section>
-    <section>
-      <h2>Contacts</h2>
-    </section>
-  </main>
+    </footer>
+  </div>
 </body>
 </html>
